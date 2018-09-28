@@ -19,3 +19,6 @@ Model hình của mình dùng vgg16 và Bidirection LSTM, có tổng 20m tham s�
 # Result
 Kết quả mình sau khi train 60 epochs + 31 epochs cho finetune. Mình tính editdistance trên tập valid 1/5 training size thì được normalize editdistance khoảng 0.28x
 ![Result](img/result.jpg)
+
+# Any Problem?
+Nếu bạn có vấn đề gì thì liên hệ với mình qua gmail pbcquoc@gmail.com. 
