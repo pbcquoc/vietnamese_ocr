@@ -14,4 +14,5 @@ Tiền xử lý là cực kì quan trọng đối với bài toàn này. Một t
 # Train
 
 # Result
-![Result][img/result.jpg]
+Kết quả mình sau khi train 60 epochs + 31 epochs cho finetune
+![Result](img/result.jpg)
