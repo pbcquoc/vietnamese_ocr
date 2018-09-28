@@ -6,10 +6,12 @@ Trong cuộc thi này gồm 3 challenges:
 - [Document Layout Analysis](https://goo.gl/wHi5DK)
 - [Real Time Facial LandMark Detection](https://goo.gl/gcp77y)
 # Preprocess
-
+Tiền xử lý là cực kì quan trọng đối với bài toàn này. Một trong những cách mà các bạn có thể thử:
+- Binary bản scan
+- Remove white border 
 # Model
 
 # Train
 
 # Result
-
+![Result][img/result.jpg]
