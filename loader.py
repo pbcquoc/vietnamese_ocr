@@ -106,19 +106,7 @@ class TextImageGenerator:
         self.cur_index = 0
         self.imgs = np.zeros((self.n, self.img_h, self.img_w, 3), dtype=np.float16)
         self.training = training
-        self.n_eraser = n_eraser
-        self.random_eraser = get_random_eraser(s_l=0.004, s_h=0.005, r_1=0.01, r_2=1/0.01, v_l=-128, v_h=128)
         self.texts = []
-        image_datagen_args = {
-		'shear_range': 0.1,
-		'zoom_range': 0.01,
-		'width_shift_range': 0.001,
-		'height_shift_range': 0.1,
-		'rotation_range': 1,
-		'horizontal_flip': False,
-		'vertical_flip': False
-	}
-        self.image_datagen = ImageDataGenerator(**image_datagen_args)
 
     def build_data(self):
         print(self.n, " Image Loading start... ", self.img_dirpath)
