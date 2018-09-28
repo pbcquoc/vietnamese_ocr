@@ -10,7 +10,7 @@ Tiền xử lý là cực kì quan trọng đối với bài toàn này. Một t
 - Binary bản scan
 - Remove white border 
 # Model
-
+![Model](img/model.png)
 # Train
 
 # Result
