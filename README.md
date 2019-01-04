@@ -7,8 +7,7 @@ Trong cuộc thi này gồm 3 challenges:
 - [Real Time Facial LandMark Detection](https://goo.gl/gcp77y)
 
 # Dataset
-Các bạn download dataset của BTC tại đây nhé. 
-[Dataset](https://drive.google.com/drive/folders/1Qa2YA6w6V5MaNV-qxqhsHHoYFRK5JB39)
+Các bạn download dataset của BTC tại [đây](https://drive.google.com/drive/folders/1Qa2YA6w6V5MaNV-qxqhsHHoYFRK5JB39) nhé. 
 
 # Preprocess
 Tiền xử lý là cực kì quan trọng đối với bài toàn này. Một trong những cách mà các bạn có thể thử:
