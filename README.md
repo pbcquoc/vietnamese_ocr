@@ -5,6 +5,11 @@ Trong cuộc thi này gồm 3 challenges:
 - [Handwriting OCR for Vietnamese Address](https://goo.gl/PHJCit)
 - [Document Layout Analysis](https://goo.gl/wHi5DK)
 - [Real Time Facial LandMark Detection](https://goo.gl/gcp77y)
+
+# Dataset
+Các bạn download dataset của BTC tại đây nhé. 
+[Dataset](https://drive.google.com/drive/folders/1Qa2YA6w6V5MaNV-qxqhsHHoYFRK5JB39)
+
 # Preprocess
 Tiền xử lý là cực kì quan trọng đối với bài toàn này. Một trong những cách mà các bạn có thể thử:
 - Binary bản scan
@@ -15,6 +20,15 @@ CNN, RNN thì các bạn đã quen thuộc. Trong bài này mình thấy điểm
 ![Model](img/model.png)
 # Train
 Model hình của mình dùng vgg16 và Bidirection LSTM, có tổng 20m tham số, nên quá trình train để hạn chết overfit là cực kì quan trọng. Đầu tiên, các bạn cần fix CNN, chỉ train LSTM, sau đó thì train cả mô hình với learning rate nhỏ hơn. Mình train khoảng 60 epochs cho LSTM với lr=0.001, và 30 epochs tiết theo để finetune với lr=0.00001
+
+Các bạn gõ câu lệnh sau để train:
+```python
+python crnn.py --train {thư mục chứa ảnh} --label {nhãn.json}
+```
+Các bạn gõ câu lệnh sau để predict:
+```python
+python predict.py --model {thư mực chứa kfold model} --data {thư mục chứa ảnh cần predict}
+```
 
 # Result
 Kết quả mình sau khi train 60 epochs + 31 epochs cho finetune. Mình tính editdistance trên tập valid 1/5 training size thì được normalize editdistance khoảng 0.28x
