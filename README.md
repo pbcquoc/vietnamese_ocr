@@ -5,6 +5,7 @@ Trong cuộc thi này gồm 3 challenges:
 - [Handwriting OCR for Vietnamese Address](https://goo.gl/PHJCit)
 - [Document Layout Analysis](https://goo.gl/wHi5DK)
 - [Real Time Facial LandMark Detection](https://goo.gl/gcp77y)
+
 **update: Mình cập nhật source code mô hình top 1 tại cuộc thi và pretrain tại [bitbucket](https://bitbucket.org/pbcquoc/ocr/src/master/)
 
 # Dataset
