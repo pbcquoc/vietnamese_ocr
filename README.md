@@ -35,5 +35,5 @@ python predict.py --model {thư mực chứa kfold model} --data {thư mục ch�
 Kết quả mình sau khi train 60 epochs + 31 epochs cho finetune. Mình tính editdistance trên tập valid 1/5 training size thì được normalize editdistance khoảng 0.28x
 ![Result](img/result.jpg)
 Chi tiết mô hình các bạn có thể đọc tại [blog](https://pbcquoc.github.io/vietnamese-ocr/) của mình nhé. 
-# Any Problem?
+# Any Problems?
 Nếu bạn có vấn đề gì thì liên hệ với mình qua gmail pbcquoc@gmail.com. 
